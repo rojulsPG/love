@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#6c757d" />
+    <title>Rojuls Febrian Page</title>
+    <meta name="description" content="Rojuls Febrian Page Project"/>
+    <meta property="og:image" content="https://rojulspg.github.io/img/profil.jpg" />
+    <script>if (document.location.protocol != "https:") {document.location = document.URL.replace(/^http:/i, "https:");}</script>
+    
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet'>
+    
+    <!-- Bootstrap 5.3 FULL -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=24">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body class="mt-5">
+    <!-- NavBar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-secondary">
+      <div class="container">
+        <a class="navbar-brand" href="/">Rojuls Febrian</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container text-center">
+        <img src="img/profil.jpg" id="ngelujancok" alt="Foto Profil" class="rounded-circle">
+        <h1 class="display-5">Rojuls Febrian</h1>
+        <p class="lead" id="desc"></p>
+      </div>
+    </div>
+      
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center"><h2>About You</h2></div>
+        </div>
+        <div class="row justify-content-center mb-5">
+          <div class="col-12 col-md-5">
+            <p class="pleft">Gak tampan, tapi menarik. Kadang cuek, tapi baik. Kadang nyebelin, tapi ngangenin. Agak cerewet, tapi manis kok. Kadang bikin rusuh, tapi tetap lucu, intinya sih semuanya kadang-kadang :v</p>
+          </div>
+          <div class="col-12 col-md-5 mt-4 mt-md-0">
+            <p class="pright">Kenyataan yang sebenarnya adalah saya itu bucin tingkat dewa dan suka usil. Kalo musim hujan saya biasa buang tai di samping rumah orang dan ketika saya galau saya akan berubah menjadi homo :v</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Area Foto Gallery -->
+    <section id="gallery" class="gallery pb-4">
+      <div class="container">
+        <div class="row mb-3 pt-4">
+          <div class="col text-center">
+            <h2>Gallery Foto</h2>
+          </div>
+        </div>
+      
+        <!-- BARIS 1 -->
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#modalFoto1">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="img/1.jpg" class="card-img-top thumbnail" alt="Foto 01">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Ini adalah foto kenangan ketika saya jadi badut natal :v</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#modalFoto2">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="img/2.jpg" class="card-img-top thumbnail" alt="Foto 02">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Ini adalah foto saat saya lagi ganteng-gantengnya :v</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#modalFoto3">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="img/3.jpg" class="card-img-top thumbnail" alt="Foto 03">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Ini adalah momen ketika saya pura-pura jadi bocah nakal :v</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- BARIS 2 -->
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#modalFoto4">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="img/4.jpg" class="card-img-top thumbnail" alt="Foto 04">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Ini adalah foto setelah jenggot saya kebakar habis karena korek api bangsad :v</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#modalFoto5">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="img/5.jpg" class="card-img-top thumbnail" alt="Foto 05">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Ekspresi saya ketika di acara nikahan teman dan perut tiba-tiba sakit pengen ngising :v</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#modalFoto6">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="img/6.jpg" class="card-img-top thumbnail" alt="Foto 06">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Foto ketika saya masih gila dulu, kabur dari rumah sakit jiwa terus foto-foto alay buat refreshin otak :v</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- BARIS 3 -->
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#modalFoto7">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="img/7.jpg" class="card-img-top thumbnail" alt="Foto 07">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Mau sholat tarawih, pas sampai masjid ternyata orang-orang udah pada bubar :v</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#modalFoto8">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="img/8.jpg" class="card-img-top thumbnail" alt="Foto 08">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Pura-pura main gitar biar terlihat keren, padahal mah gak bisa main gitar :v</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#modalFoto9">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="img/9.jpg" class="card-img-top thumbnail" alt="Foto 09">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Foto jaman masih sekolah dan bercita-cita pengen jadi presiden zimbabwe :v</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- BARIS 4 -->
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#modalFoto10">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="img/10.jpg" class="card-img-top thumbnail" alt="Foto 10">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Foto andalan saya untuk memancing para janda keluar dari persembunyian :v</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#modalFoto11">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="img/11.jpg" class="card-img-top thumbnail" alt="Foto 11">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Ketika saya masih muda dan menjadi anak jalanan :v</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4 mb-4">
+            <a href="#" class="gallery-link" data-bs-toggle="modal" data-bs-target="#modalFoto12">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="img/12.jpg" class="card-img-top thumbnail" alt="Foto 12">
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Ekspresi ketika habis ditolak cewek, mau nangis tapi malu :v</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <!-- Contact -->
+    <section id="contact" class="contact mb-4">
+      <div class="container">
+        <div class="row mb-3 pt-4">
+          <div class="col text-center"><h2>Contact Us</h2></div>
+        </div>
+        
+        <div class="row justify-content-center">
+          <div class="col-lg-6 mb-4">
+            <form id="formKutukan" action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="f70d4267-7826-4adf-b3eb-8be301cfa39b">
+              <input type="hidden" name="subject" value="Kutukan Baru dari Website Rojuls!">
+              <input type="checkbox" name="botcheck" style="display: none;">
+              
+              <div class="alert alert-danger alert-dismissible fade show" role="alert" id="notifSukses" style="display:none">
+                <strong>Kutukan Terkirim!</strong> Semoga targetmu ngerasain karmanya 😈
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+              </div>
+              
+              <div class="form-group mb-3">
+                <label>Nama</label>
+                <input type="text" name="nama" class="form-control" required>
+              </div>
+              <div class="form-group mb-3">
+                <label>Email</label>
+                <input type="email" name="email" class="form-control" required>
+              </div>
+              <div class="form-group mb-3">
+                <label>No.Telp</label>
+                <input type="text" name="telp" class="form-control">
+              </div>
+              <div class="form-group mb-3">
+                <label>Message</label>
+                <textarea name="pesan" class="form-control" rows="3" placeholder="Form kirim pesan work yah cok dan jangan di spam :v" required></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-secondary w-100">Kirim Kutukan</button>
+            </form>
+          </div>
+          
+          <div class="col-lg-4 mt-3 mt-lg-0">
+            <div class="card text-white bg-secondary mb-3 text-center">
+              <div class="card-body">
+                <h5 class="card-title">./D-error</h5>
+                <p class="card-text">Siapa itu .? saya adalah sesosok tai yg bersinar di aliran sungai yg deras dan menyukai janda hahahaha</p>
+              </div>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item"><h2>Sosial Media</h2></li>
+              <li class="list-group-item"><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/error404.phtml" target="_blank">Rojuls Febrian</a></li>
+              <li class="list-group-item"><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/rojuls_febrian/" target="_blank">@rojuls_febrian</a></li>
+              <li class="list-group-item"><i class="fab fa-twitter"></i> <a href="https://twitter.com/rojuls_febrian/" target="_blank">@rojuls_febrian</a></li>
+              <li class="list-group-item"><i class="fab fa-whatsapp"></i> <a href="https://wa.me/6281390250460" target="_blank">Rojuls Febrian</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white">
+      <div class="container">
+        <div class="row pt-3">
+          <div class="col text-center">
+            <p>&copy Copyright <script>document.write(new Date().getFullYear());</script> Rojuls Febrian Page</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ===== 12 MODAL POPUP FOTO ===== -->
+    <!-- Modal 1 s/d 12 sama kayak punya lu, gue skip biar nggak kepanjangan -->
+    <!-- MODAL 1 -->
+    <div class="modal fade" id="modalFoto1" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Badut Natal 2023 :v</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="img/1.jpg" class="img-fluid mb-3" alt="Foto 1">
+            <p class="detail-text">Ganti cerita detail foto 1 disini bang... Ceritain kronologi lengkap jadi badutnya gimana :v</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="modalFoto2" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Mode Ganteng Sementara</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <img src="img/2.jpg" class="img-fluid mb-3" alt="Foto 2">
+            <p class="detail-text">Ganti cerita detail foto 2 disini bang... Umur berapa, lagi PD gara-gara apa :v</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 s/d 12 copy pola modal 1 -->
+    <div class="modal fade" id="modalFoto3" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Bocah Nakal</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body text-center"><img src="img/3.jpg" class="img-fluid mb-3"><p class="detail-text">Ganti cerita detail foto 3...</p></div></div></div></div>
+    <div class="modal fade" id="modalFoto4" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Jenggot Kebakar</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body text-center"><img src="img/4.jpg" class="img-fluid mb-3"><p class="detail-text">Ganti cerita detail foto 4...</p></div></div></div></div>
+    <div class="modal fade" id="modalFoto5" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Perut Mules</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body text-center"><img src="img/5.jpg" class="img-fluid mb-3"><p class="detail-text">Ganti cerita detail foto 5...</p></div></div></div></div>
+    <div class="modal fade" id="modalFoto6" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">RSJ Kabur</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body text-center"><img src="img/6.jpg" class="img-fluid mb-3"><p class="detail-text">Ganti cerita detail foto 6...</p></div></div></div></div>
+    <div class="modal fade" id="modalFoto7" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Telat Tarawih</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body text-center"><img src="img/7.jpg" class="img-fluid mb-3"><p class="detail-text">Ganti cerita detail foto 7...</p></div></div></div></div>
+    <div class="modal fade" id="modalFoto8" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Pura-Pura Gitaris</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body text-center"><img src="img/8.jpg" class="img-fluid mb-3"><p class="detail-text">Ganti cerita detail foto 8...</p></div></div></div></div>
+    <div class="modal fade" id="modalFoto9" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Calon Presiden Zimbabwe</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body text-center"><img src="img/9.jpg" class="img-fluid mb-3"><p class="detail-text">Ganti cerita detail foto 9...</p></div></div></div></div>
+    <div class="modal fade" id="modalFoto10" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Pemancing Janda</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body text-center"><img src="img/10.jpg" class="img-fluid mb-3"><p class="detail-text">Ganti cerita detail foto 10...</p></div></div></div></div>
+    <div class="modal fade" id="modalFoto11" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Anak Jalanan</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body text-center"><img src="img/11.jpg" class="img-fluid mb-3"><p class="detail-text">Ganti cerita detail foto 11...</p></div></div></div></div>
+    <div class="modal fade" id="modalFoto12" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-lg"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Habis Ditolak</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div><div class="modal-body text-center"><img src="img/12.jpg" class="img-fluid mb-3"><p class="detail-text">Ganti cerita detail foto 12...</p></div></div></div></div>
+
+    <!-- Bootstrap 5.3 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    
+    <script>
+    // TypeIt effect
+    document.addEventListener('DOMContentLoaded', function() {
+      new TypeIt('#desc', {
+        speed: 60,
+        cursor: false,
+        loop: true,
+        deleteSpeed: 40,
+        loopDelay: 2000,
+        waitUntilVisible: true
+      })
+      .type('Mudah disebut, gampang diingat, dan sulit untuk dilupakan... :D')
+      .pause(2000)
+      .delete()
+      .go();
+    });
+
+    // Web3Forms Submit
+    const form = document.getElementById('formKutukan');
+    const notif = document.getElementById('notifSukses');
+
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const btn = form.querySelector('button[type="submit"]');
+      btn.disabled = true;
+      btn.innerHTML = 'Mengirim Kutukan...';
+      
+      const formData = new FormData(form);
+      
+      try {
+        const response = await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          body: formData
+        });
+        const data = await response.json();
+        
+        if(data.success) {
+          notif.style.display = 'block';
+          form.reset();
+          setTimeout(() => {
+            notif.classList.remove('show');
+            setTimeout(() => notif.style.display = 'none', 300);
+          }, 3000);
+          btn.disabled = false;
+          btn.innerHTML = 'Kirim Kutukan';
+        } else {
+          alert('Gagal kirim: ' + data.message);
+          btn.disabled = false;
+          btn.innerHTML = 'Kirim Kutukan';
+        }
+      } catch(error) {
+        alert('Error: Cek access_key udah bener belum bang');
+        btn.disabled = false;
+        btn.innerHTML = 'Kirim Kutukan';
+      }
+    });
+    </script>
+
+    <!-- ===== SCRIPT TOMBOL BACK BUAT NUTUP MODAL ===== -->
+    <script>
+    let modalStack = [];
+
+    document.querySelectorAll('.modal').forEach(modal => {
+      modal.addEventListener('show.bs.modal', function () {
+        history.pushState({modal: modal.id}, '', '#' + modal.id);
+        modalStack.push(modal.id);
+      });
+      
+      modal.addEventListener('hide.bs.modal', function () {
+        if (history.state && history.state.modal === modal.id) {
+          history.back();
+        }
+      });
+    });
+
+    window.addEventListener('popstate', function(event) {
+      if (modalStack.length > 0) {
+        let lastModalId = modalStack.pop();
+        let modalEl = document.getElementById(lastModalId);
+        let modalInstance = bootstrap.Modal.getInstance(modalEl);
+        if (modalInstance) {
+          modalInstance.hide();
+        }
+      }
+    });
+
+    document.querySelectorAll('.modal').forEach(modal => {
+      modal.addEventListener('click', function(e) {
+        if (e.target === this) {
+          bootstrap.Modal.getInstance(this).hide();
+        }
+      });
+    });
+    </script>
+  </body>
+</html>
